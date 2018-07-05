@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shruthi.project.Play">
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:paddingBottom="@dimen/padding"
+        android:paddingLeft="@dimen/layoutpadding"
+        android:paddingTop="@dimen/padding"
+        android:layout_weight="0.08">
+
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="5dp"
+            android:layout_y="5dp"
+            android:background="#000"
+            android:text="@string/space"
+            android:textSize="24sp">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="123dp"
+            android:layout_y="2dp"
+            android:text="@string/one"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="243dp"
+            android:layout_y="9dp"
+            android:text="@string/two"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="5dp"
+            android:layout_y="126dp"
+            android:text="@string/three"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="122dp"
+            android:layout_y="126dp"
+            android:text="@string/four"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="237dp"
+            android:layout_y="129dp"
+            android:text="@string/five"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="2dp"
+            android:layout_y="254dp"
+            android:text="@string/six"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="123dp"
+            android:layout_y="251dp"
+            android:text="@string/seven"
+            android:textSize="24sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="244dp"
+            android:layout_y="258dp"
+            android:text="@string/eight"
+            android:textSize="24sp">
+
+        </Button>
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.03"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/scoreid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:paddingLeft="@dimen/padding"
+            android:text="@string/noofmoves"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txtsize" />
+
+        <TextView
+            android:id="@+id/scoretxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/absoluteLayout"
+            android:layout_weight="0.24"
+            android:paddingLeft="@dimen/padding"
+            android:text="@string/space"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txtsize" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Moveid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:paddingLeft="@dimen/padding"
+        android:text="move :"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txtsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.04">
+
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:paddingLeft="@dimen/padding"
+            android:text="@string/quit"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/bttnsize" />
+
+        <Button
+            android:id="@+id/helpbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:text="@string/helpbttn"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/txtsize" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

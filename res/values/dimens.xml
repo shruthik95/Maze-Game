@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlesize">40sp</dimen>
+    <dimen name="txtsize">25sp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="bttnsize">25sp</dimen>
+    <dimen name="layoutpadding">35dp</dimen>
+    <dimen name="helptxtsize">30sp</dimen>
+    <dimen name="btn">20sp</dimen>
+    <dimen name="padding2">5dp</dimen>
+</resources>

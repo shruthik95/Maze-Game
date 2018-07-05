@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shruthi.project.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/titleid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:text="@string/title"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/titlesize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:contentDescription="@string/img"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        app:srcCompat="@drawable/image1" />
+
+    <Button
+        android:id="@+id/abtbttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:text="@string/Aboutbttn"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/bttnsize" />
+
+    <Button
+        android:id="@+id/playbbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding"
+        android:paddingTop="@dimen/padding"
+        android:text="@string/playbutton"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/bttnsize" />
+
+</LinearLayout>
